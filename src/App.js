@@ -15,7 +15,6 @@ class TreeNode {
     }
   }
 }
-
 class Tree {
   constructor() {
     this.root = null;
