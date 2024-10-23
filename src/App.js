@@ -59,7 +59,7 @@ class Tree {
   deleteNode(value) {
     if (!this.root) return;
     if (this.root.value === value) {
-      this.root = null; 
+      this.root = null;
     } else {
       this._deleteNodeRecursively(this.root, value);
     }
